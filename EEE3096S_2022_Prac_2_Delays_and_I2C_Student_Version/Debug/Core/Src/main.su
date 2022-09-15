@@ -1,0 +1,13 @@
+../Core/Src/main.c:108:5:main	56	static
+../Core/Src/main.c:180:6:SystemClock_Config	104	static
+../Core/Src/main.c:226:13:MX_I2C1_Init	8	static
+../Core/Src/main.c:274:13:MX_USART2_UART_Init	8	static
+../Core/Src/main.c:307:13:MX_DMA_Init	16	static
+../Core/Src/main.c:325:13:MX_GPIO_Init	56	static
+../Core/Src/main.c:354:6:pause_sec	24	static
+../Core/Src/main.c:365:9:decToBcd	24	static
+../Core/Src/main.c:372:5:bcdToDec	16	static
+../Core/Src/main.c:380:6:setTime	48	static
+../Core/Src/main.c:400:6:getTime	32	static
+../Core/Src/main.c:427:5:epochFromTime	24	static
+../Core/Src/main.c:481:6:Error_Handler	8	static,ignoring_inline_asm
