@@ -457,7 +457,7 @@ int epochFromTime(TIME time){
 
 	day += time.dayofmonth;
 	day += (time.year - 22) * 365;
-	int seconds = (day * (86400)) + (time.hour *(3600)) + (time.minutes * (60)) + time.seconds;
+	int seconds = (day * (86400)) + ((time.hour - 2) *(3600)) + (time.minutes * (60)) + time.seconds;
 
 
 	return EPOCH_2022 + seconds;
