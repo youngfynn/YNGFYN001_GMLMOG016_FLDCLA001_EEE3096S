@@ -19,6 +19,9 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\fynn\Documents\Varsity Docs\2022\2nd Semester\EEE3096S\Pracs\Prac3\EEE3096S_2022_Prac_3_ADCs_Interrupts_and_PWM_Student_Version"/>
+			<item value="C:\Users\fynn\Documents\Varsity Docs\2022\2nd Semester\EEE3096S\Pracs\Prac2\EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version"/>
+			<item value="C:\Users\fynn\Documents\Varsity Docs\2022\2nd Semester\EEE3096S\Pracs\Prac2"/>
 			<item value="C:\Users\fynn\Documents\Varsity Docs\2022\2nd Semester\EEE3096S\Pracs\EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version"/>
 		</list>
 	</section>

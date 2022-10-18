@@ -1,0 +1,8 @@
+../Core/Src/main - Copy.c:91:5:main	16	static
+../Core/Src/main - Copy.c:157:6:SystemClock_Config	80	static
+../Core/Src/main - Copy.c:196:13:MX_TIM2_Init	64	static
+../Core/Src/main - Copy.c:254:13:MX_TIM3_Init	64	static
+../Core/Src/main - Copy.c:311:13:MX_DMA_Init	16	static
+../Core/Src/main - Copy.c:329:13:MX_GPIO_Init	48	static
+../Core/Src/main - Copy.c:361:6:EXTI0_1_IRQHandler	16	static
+../Core/Src/main - Copy.c:409:6:Error_Handler	8	static,ignoring_inline_asm

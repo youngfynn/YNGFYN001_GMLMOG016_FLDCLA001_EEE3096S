@@ -1,44 +1,10 @@
-16:24:37 **** Incremental Build of configuration Debug for project EEE3096S_2022_Prac_3_ADCs_Interrupts_and_PWM_Student_Version ****
+17:11:17 **** Incremental Build of configuration Debug for project EEE3096S_2022_Prac_3_ADCs_Interrupts_and_PWM_Student_Version ****
 make -j8 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:136:4: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
-  136 |    sprintf(buffer, "ADC Value: %d | DC Value: %d/47999 = %f\r\n", adc_val, adc_scaled, (adc_scaled/47999)*100);
-      |    ^~~~~~~
-../Core/Src/main.c:136:4: warning: incompatible implicit declaration of built-in function 'sprintf'
-../Core/Src/main.c:24:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
-   23 | #include "main.h"
-  +++ |+#include <stdio.h>
-   24 | 
-../Core/Src/main.c:136:33: warning: format '%d' expects argument of type 'int', but argument 3 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
-  136 |    sprintf(buffer, "ADC Value: %d | DC Value: %d/47999 = %f\r\n", adc_val, adc_scaled, (adc_scaled/47999)*100);
-      |                                ~^                                 ~~~~~~~
-      |                                 |                                 |
-      |                                 int                               uint32_t {aka long unsigned int}
-      |                                %ld
-../Core/Src/main.c:136:48: warning: format '%d' expects argument of type 'int', but argument 4 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
-  136 |    sprintf(buffer, "ADC Value: %d | DC Value: %d/47999 = %f\r\n", adc_val, adc_scaled, (adc_scaled/47999)*100);
-      |                                               ~^                           ~~~~~~~~~~
-      |                                                |                           |
-      |                                                int                         uint32_t {aka long unsigned int}
-      |                                               %ld
-../Core/Src/main.c:136:59: warning: format '%f' expects argument of type 'double', but argument 5 has type 'long unsigned int' [-Wformat=]
-  136 |    sprintf(buffer, "ADC Value: %d | DC Value: %d/47999 = %f\r\n", adc_val, adc_scaled, (adc_scaled/47999)*100);
-      |                                                          ~^                            ~~~~~~~~~~~~~~~~~~~~~~
-      |                                                           |                                              |
-      |                                                           double                                         long unsigned int
-      |                                                          %ld
-arm-none-eabi-gcc -o "EEE3096S_2022_Prac_3_ADCs_Interrupts_and_PWM_Student_Version.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\fynn\Documents\Varsity Docs\2022\2nd Semester\EEE3096S\Pracs\EEE3096S_2022_Prac_3_ADCs_Interrupts_and_PWM_Student_Version\STM32F051R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="EEE3096S_2022_Prac_3_ADCs_Interrupts_and_PWM_Student_Version.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: EEE3096S_2022_Prac_3_ADCs_Interrupts_and_PWM_Student_Version.elf
- 
 arm-none-eabi-size   EEE3096S_2022_Prac_3_ADCs_Interrupts_and_PWM_Student_Version.elf 
-arm-none-eabi-objdump -h -S  EEE3096S_2022_Prac_3_ADCs_Interrupts_and_PWM_Student_Version.elf  > "EEE3096S_2022_Prac_3_ADCs_Interrupts_and_PWM_Student_Version.list"
    text	   data	    bss	    dec	    hex	filename
-  20448	    120	   2048	  22616	   5858	EEE3096S_2022_Prac_3_ADCs_Interrupts_and_PWM_Student_Version.elf
+  20416	    120	   2048	  22584	   5838	EEE3096S_2022_Prac_3_ADCs_Interrupts_and_PWM_Student_Version.elf
 Finished building: default.size.stdout
  
-Finished building: EEE3096S_2022_Prac_3_ADCs_Interrupts_and_PWM_Student_Version.list
- 
 
-16:24:39 Build Finished. 0 errors, 5 warnings. (took 1s.647ms)
+17:11:18 Build Finished. 0 errors, 0 warnings. (took 704ms)
 
